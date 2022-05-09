@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class pongServer {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
         if (args.length != 1) {
             System.err.println("Usage: java EchoServer ");
         }

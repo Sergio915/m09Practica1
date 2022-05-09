@@ -8,8 +8,8 @@ import java.net.Socket;
 
 public class thread extends Thread implements Runnable{
 
-    Socket socket;
-    public thread(Socket clientSocket){
+    private Socket socket;
+    public thread(Socket socket){
         this.socket = socket;
     }
     @Override
